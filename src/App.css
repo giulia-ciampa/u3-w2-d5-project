@@ -1,0 +1,31 @@
+.navbar-logo {
+  width: 60px;
+}
+
+.navbar-text {
+  color: rgb(176, 227, 210);
+}
+
+.background1 {
+  background-color: rgb(106, 148, 190);
+}
+
+.btn-color {
+  background-color: rgb(64, 106, 149);
+  border: none;
+}
+
+.btn-color:hover {
+  background-color: rgb(48, 80, 111);
+  border: none;
+}
+
+.background2 {
+  background-color: rgba(146, 182, 217, 0.426);
+}
+
+.form-color {
+  background-color: #f7db4d46;
+  font-weight: 500;
+  color: rgb(48, 80, 111);
+}
