@@ -2,7 +2,7 @@ const cityImages = {
   "L'Aquila":
     "https://turismo.abruzzo.it/wp-content/uploads/sites/118/laquila-piazza-duomo-hd.jpg",
   Potenza:
-    "https://www.italyreview.com/uploads/2/6/3/6/26365745/muro-lucano-basilicata-9_2_orig.jpg",
+    "https://it.latuaitalia.ru/wp-content/uploads/2016/07/Duomo-San-Gerardo-Eddy-Galeotti-Shutterstock.com_.jpg",
   Catanzaro:
     "https://tourismmedia.italia.it/is/image/mitur/1600X1000_Catanzaro_citta_Hero?wid=2160&hei=1320&fit=constrain,1&fmt=webp",
   Bologna:
@@ -14,7 +14,7 @@ const cityImages = {
   "Provincia di Ancona":
     "https://upload.wikimedia.org/wikipedia/commons/d/d6/Il_porto_di_Ancona_%282426413820%29.jpg",
   "Provincia di Campobasso":
-    "https://tourismmedia.italia.it/is/image/mitur/2480X1000_Campobasso1_destination?wid=2480&hei=1000&fit=constrain,1&fmt=webp",
+    "https://www.isnews.it/wp-content/uploads/2018/09/campobasso.jpg",
   Bari: "https://upload.wikimedia.org/wikipedia/commons/7/76/Puglia_bari_old-town.jpg",
   "Provincia di Cagliari":
     "https://tourismmedia.italia.it/is/image/mitur/20210506110055-shutterstock-518312332?wid=2160&hei=1320&fit=constrain,1&fmt=webp",
@@ -25,7 +25,7 @@ const cityImages = {
   "Valle d'Aosta":
     "https://tourismmedia.italia.it/is/image/mitur/20211115143228-teatro-romano-aosta-valle-aosta-shutterstock?wid=2160&hei=1320&fit=constrain,1&fmt=webp",
   Venice:
-    "https://tourismmedia.italia.it/is/image/mitur/1600X900_venezia_san_marco_gabbiano-1?wid=3200&hei=1800&fit=constrain,1&fmt=webp",
+    "https://tourismmedia.italia.it/is/image/mitur/20210402163741-san-marco-venezia-mattina-veneto-gettyimages-933386488?wid=2160&hei=1320&fit=constrain,1&fmt=webp",
   Rome: "https://tourismmedia.italia.it/is/image/mitur/20220127150143-colosseo-roma-lazio-shutterstock-756032350?wid=3200&hei=1800&fit=constrain,1&fmt=webp",
   Milan:
     "https://tourismmedia.italia.it/is/image/mitur/20220119115535-piazza-del-duomo-all-alba-milano-lombardia-shutterstock-1161075943-rid?wid=2160&hei=1320&fit=constrain,1&fmt=webp",
