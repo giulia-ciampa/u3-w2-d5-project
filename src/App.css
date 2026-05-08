@@ -29,3 +29,7 @@
   font-weight: 500;
   color: rgb(48, 80, 111);
 }
+
+.bg-text-card {
+  background-color: #f7db4d46;
+}

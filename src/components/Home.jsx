@@ -38,7 +38,7 @@ const Home = () => {
         setWeatherData(data)
       })
       .catch((error) => {
-        console.error(error)
+        console.error("errore catch", error)
       })
   }
 
@@ -142,24 +142,33 @@ const Home = () => {
                   style={{ width: "100%" }}
                   variant="top"
                   src={cityImages[weatherData.name]}
-                  alt="meteo icon"
+                  alt="immagine-città-selezionata"
                 />
-                <Card.Body>
-                  <Card.Img
-                    style={{ width: "80px" }}
-                    variant="top"
-                    src={`http://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`}
-                    alt="meteo icon"
-                  />
-                  <Card.Title className="text-primary">
-                    {weatherData.name}
-                  </Card.Title>
-                  <Card.Subtitle className="mb-2 text-muted">
-                    Meteo Attuale
-                  </Card.Subtitle>
-                  <Card.Text>
+                <Card.Body className="p-0">
+                  <div
+                    className="d-flex justify-content-start align-items-center bg-text-card
+                  "
+                  >
+                    <Card.Img
+                      style={{ width: "80px" }}
+                      variant="top"
+                      src={`http://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`}
+                      alt="meteo icon"
+                    />
+                    <div className="ms-3">
+                      <Card.Title className="text-primary">
+                        {weatherData.name}
+                      </Card.Title>
+                      <Card.Subtitle className="mb-2 text-muted">
+                        Meteo Attuale
+                      </Card.Subtitle>
+                    </div>
+                  </div>
+                  <Card.Text className=" ms-3 py-3">
                     <strong>Temperatura:</strong> {weatherData.main.temp}°C{" "}
                     <br />
+                    <strong>Max:</strong> {weatherData.main.temp_max}°C{" "}
+                    <strong>Min:</strong> {weatherData.main.temp_min}°C <br />
                     <strong>Descrizione:</strong>{" "}
                     {weatherData.weather[0].description} <br />
                     <strong>Umidità:</strong> {weatherData.main.humidity}%
